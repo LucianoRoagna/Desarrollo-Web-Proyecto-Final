@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "tipo": "Reposera",
+    "precio": 7000,
+    "stock": 0,
+    "img": "imagenes/anatomica/r1.jpg"
+   
+}, {
+    "id": 2,
+    "tipo": "Banquito",
+    "precio": 3000,
+    "stock": 4,
+    "img":"imagenes/accesorios/a1.jpg"
+}, {
+    "id": 3,
+    "tipo": "Reposera pileta",
+    "precio": 9000,
+    "stock": 3,
+    "img":"imagenes/pileta/1.jpg"
+},{
+    "id": 4,
+    "tipo": "Silla",
+    "precio": 1500,
+    "stock": 4,
+    "img":"imagenes/accesorios/a6.jpg"
+},{
+    "id": 5,
+    "tipo": "Mesa",
+    "precio": 3500,
+    "stock": 4,
+    "img":"imagenes/accesorios/a4.jpg"
+},{
+    "id":6,
+    "tipo": "Puff",
+    "precio": 2000,
+    "stock": 4,
+    "img":"imagenes/accesorios/a7.jpg"
+}]
