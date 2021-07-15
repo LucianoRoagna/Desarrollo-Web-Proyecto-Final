@@ -56,6 +56,10 @@ header{
         width: 125px;
        margin-right: 10px;
        margin-top: 10px;
+       border: 3px solid;
+       border-color: white;
+       border-radius: 10px;
+       
        
     
         
@@ -88,13 +92,15 @@ header{
    }
 
    .imagenes img:hover{
-    -webkit-transform:scale(1.25);
-    -moz-transform:scale(1.25);
-    -ms-transform:scale(1.25);
-    -o-transform:scale(1.25);
-    transform:scale(1.25);
+    -webkit-transform:scale(1.50);
+    -moz-transform:scale(1.50);
+    -ms-transform:scale(1.50);
+    -o-transform:scale(1.50);
+    transform:scale(1.50);
    }
 
+
+ 
    
 
    
