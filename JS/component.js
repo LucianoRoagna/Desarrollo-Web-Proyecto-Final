@@ -14,6 +14,6 @@ function card(producto){
     </div>
   </div>`
   
-   
 }
+
 
