@@ -1,0 +1,61 @@
+.menu_bar {
+	display: none;
+}
+.container {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	justify-content: center;
+}
+.info {
+	margin: 0.5rem;
+	border: 3px;
+	padding: 0.5rem;
+	font-size: 30px;
+	font-family: initial;
+}
+
+
+@media screen and (max-width:800px) {
+	header {
+		nav {
+			width: 80%;
+			height: 100%;
+			margin: 0;
+			position: fixed;
+			font-weight: bold;
+			background-color: gainsboro;
+			padding: 40px;
+			ul {
+				li {
+					display: block;
+					float: none;
+					border-bottom: 2px solid rgba(255,255,255, .3);
+				}
+			}
+		}
+	}
+	.menu {
+		ul {
+			flex-direction: column;
+		}
+	}
+	.menu_bar {
+		display: block;
+		width: 100%;
+		text-align: center;
+		.bt-menu {
+			display: block;
+			padding: 40px;
+			font-size: 25px;
+			color: black;
+			font-weight: bold;
+		}
+	}
+	.info {
+		grid-column: 2 / span 1;
+		font-size: 17px;
+	}
+	.container {
+		grid-template-rows: repeat(3, 200px);
+	}
+}

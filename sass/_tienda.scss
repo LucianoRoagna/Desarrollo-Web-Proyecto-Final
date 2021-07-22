@@ -1,0 +1,39 @@
+.card {
+	background-color: transparent;
+	margin: auto;
+	border: none;
+  
+	button {
+	  background-color: black;
+	  border-color: black;
+	}
+  }
+  
+  .menu {
+	font-size: 40px;
+	margin: auto;
+	justify-content: center;
+  }
+  
+  #dropdownMenuButton {
+	background-color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+  }
+  
+  .dropdown {
+	float: right;
+	display: block;
+	position: absolute;
+	right: 200px;
+  }
+  
+  #carrito {
+	background-color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #queryLista {
+	background-color: black;
+	color: white;
+  }

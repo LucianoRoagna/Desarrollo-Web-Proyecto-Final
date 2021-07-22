@@ -1,0 +1,25 @@
+form {
+	width: 500px;
+	padding: 16px;
+	border-radius: 5px;
+	margin: auto;
+	background-color: transparent;
+	label {
+		width: 90px;
+		font-weight: bold;
+		display: inline-block;
+		color: black;
+	}
+	input[type="submit"] {
+		color: black;
+		background-color: beige;
+	}
+	input[type="reset"] {
+		color: black;
+		background-color: beige;
+	}
+}
+textarea {
+	width: 100%;
+	height: 100px;
+}

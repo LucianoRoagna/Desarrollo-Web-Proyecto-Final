@@ -1,0 +1,10 @@
+.social {
+	img {
+		width: 70px;
+		border-radius: 27px;
+	}
+	position: relative;
+	display: grid;
+	grid-template-columns: 100px 100px;
+	justify-content: center;
+}
