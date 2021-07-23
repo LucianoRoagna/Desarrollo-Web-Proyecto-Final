@@ -1,9 +1,14 @@
-.container {
+.containerProd {
 	display: flex;
 	text-align: center;
 	justify-content: center;
+	P {
+		text-align: center;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 20PX;
+	}
 }
-.imagenes {
+.imagenesProd {
 	img {
 		height: 125px;
 		width: 125px;
@@ -14,14 +19,9 @@
 		border-radius: 10px;
 	}
 }
-P {
-	text-align: center;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 20PX;
-}
 
 
-.imagenes {
+.imagenesProd {
 	img {
 		-webkit-transition: all .9s ease;
 		-moz-transition: all .9s ease;
@@ -36,4 +36,3 @@ P {
 		}
 	}
 }
-

@@ -39,12 +39,9 @@ header {
 }
 
 .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 300px 300px 300px;
+ 
       grid-template-columns: 300px 300px 300px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
 }
 
@@ -72,9 +69,7 @@ header {
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   }
   .menu ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+   
             flex-direction: column;
   }
   .menu_bar {
@@ -90,13 +85,12 @@ header {
     font-weight: bold;
   }
   .info {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
+   
     grid-column: 2 / span 1;
     font-size: 17px;
   }
   .container {
-    -ms-grid-rows: (200px)[3];
+   
         grid-template-rows: repeat(3, 200px);
   }
 }
@@ -155,13 +149,14 @@ textarea {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
+}
+.container P {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20PX;
 }
 
 .imagenes img {
@@ -172,12 +167,6 @@ textarea {
   border: 3px solid;
   border-color: white;
   border-radius: 10px;
-}
-
-P {
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20PX;
 }
 
 .imagenes img {
@@ -207,16 +196,13 @@ P {
 }
 
 .imagenes {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: 150px;
   padding: 20px;
   grid-gap: 10px;
   border-radius: 5px;
 }
-
 .imagenes img {
   height: 150px;
   width: 150px;
@@ -258,8 +244,7 @@ P {
 .menu {
   font-size: 40px;
   margin: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+
           justify-content: center;
 }
 
@@ -285,4 +270,40 @@ P {
   background-color: black;
   color: white;
 }
+
+.containerProd {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.containerProd P {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20PX;
+}
+
+.imagenesProd img {
+  height: 125px;
+  width: 125px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.imagenesProd img {
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+}
+.imagenesProd img:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 /*# sourceMappingURL=main.css.map */
