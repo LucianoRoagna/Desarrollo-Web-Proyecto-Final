@@ -230,11 +230,16 @@ P {
   transform: scale(1.5);
 }
 
+
+
+
 .card {
   background-color: transparent;
   margin: auto;
   border: none;
+  
 }
+
 
 .card button {
   background-color: black;
