@@ -36,6 +36,7 @@ header {
 
 .menu_bar {
   display: none;
+  
 }
 
 .container {
@@ -62,6 +63,7 @@ header {
     font-weight: bold;
     background-color: gainsboro;
     padding: 40px;
+    z-index: 20;
   }
   header nav ul li {
     display: block;
@@ -230,13 +232,14 @@ P {
   transform: scale(1.5);
 }
 
-
+ 
 
 
 .card {
   background-color: transparent;
   margin: auto;
   border: none;
+  
   
 }
 
