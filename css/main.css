@@ -70,6 +70,8 @@ header {
     float: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   }
+
+  
   .menu ul {
    
             flex-direction: column;
@@ -101,7 +103,8 @@ footer {
   bottom: 0;
   width: 100%;
   height: 50px;
-  position: fixed;
+  position:relative;
+  padding-top: 20px;
 }
 
 form {
@@ -183,24 +186,9 @@ textarea {
   transform: scale(1.5);
 }
 
-.container {
-  width: 850px;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-  -webkit-margin-start: auto;
-          margin-inline-start: auto;
-  -webkit-margin-end: auto;
-          margin-inline-end: auto;
-  -webkit-border-horizontal-spacing: 0px;
-  -webkit-border-vertical-spacing: 0px;
-}
+
 
 .imagenes {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: 150px;
   padding: 20px;
   grid-gap: 10px;
   border-radius: 5px;
@@ -212,6 +200,7 @@ textarea {
   border: 2px solid;
   border-color: white;
 }
+
 
 P {
   width: 100%;
@@ -239,8 +228,26 @@ P {
   background-color: transparent;
   margin: auto;
   border: none;
+  z-index: 2;
+  width: 450px;
   
   
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    background-color: transparent;
+    margin: auto;
+    border: none;
+    z-index: 2;
+    width: 150px;
+  }
+}
+
+@media screen and(max-width:800px){
+	.imagenes{
+		width: 100px;
+	}
 }
 
 
@@ -265,13 +272,14 @@ P {
 .dropdown {
   float: right;
   display: block;
-  position: absolute;
-  right: 200px;
+  position: static;
+  padding-right: 100px;
 }
 
 #carrito {
   background-color: whitesmoke;
   font-family: 'Times New Roman', Times, serif;
+  
 }
 
 #queryLista {
