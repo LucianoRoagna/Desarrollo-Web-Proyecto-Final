@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="PILETA, REPOSERAS, DECORACION, MESAS, SILLAS ">
     <meta name="description" content="Este es el sitio oficial de 'Reposeras Ivosol' donde podras ver y comprar nuestros productos, nuestra historia y nuestras redes ">
+    <meta name="author" content="Roagna Luciano" />
     <title>Ivosol Reposeras</title>
 <!-- LLAMADA A CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="imagenes/style.css">
-    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./imagenes/style.css">
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css">
 
 
 
@@ -29,27 +30,29 @@
 
            
            
-            <div class="menu_bar">
-                <a href="#" class="bt-menu"><span class="icon-menu"></span>MENU</a>
-            </div>
+          
         
-            <nav class="menu">
         
-                <ul>
-                    <li><a href="index.html">Nuestra Historia</a></li>
-                    <li><a href="Productos.html">Productos</a></li>
-                    <li><a href="Tienda.html">Tienda  <span class="badge badge-info">20%OFF</a></li> 
-                    <li><a href="Contacto.html">Contacto</a></li>
-                    <li><a href="tapizados.html">Tapizados</a></li>
-                   
-                    </li>
-                </ul>
+<!-- MENU -->
+        <nav role="select">
+          <ul>
+              <li><a href="index.html">Historia</a></li>
+              <li><a href="Productos.html">Productos</a></li>
+              <li><a href="Tienda.html">Tienda</a></li>
+              <li><a href="Contacto.html">Contacto</a></li>
+              <li><a href="tapizados.html">Tapizados</a></li>
+          </ul>
+          
+          <select onchange="if (this.value) window.location.href = this.value;">
+              <option value="index.html">Historia</option>
+              <option value="Productos.html">Productos</option>
+              <option value="Tienda.html">Tienda</option>
+              <option value="Contacto.html">Contacto</option>
+              <option value="Tapizados.html">Tapizados</option>
+          </select>
+      </nav>
         
-            </nav>
-        
-        </header>
-        
-
+    </header>
 
 <!-- Info sobre la empresa  -->
 <main>
@@ -59,58 +62,46 @@
     <div class="container">
         
 
-         <div class="info">
+         <p class="info">
          	
 Nuestra empresa se dedica hace más de 20 años al diseño y confort en reposeras.Creamos modelos exclusivos, fabricados con materiales de primera calidad, totalmente ecológicos, ya que utilizamos materia prima nacional 100% biodegradables. 	
 
-         </div>
+         </p>
 
-<div class="info">
+<p class="info">
     	
 Cuidamos al máximo los detalles de fabricación y diseño, lo que los hace resistentes y de una excelente calidad en sus terminaciones. La variedad de diseño y colores, permiten que nuestras reposeras se adapten a ambientes con diversos
-</div>
+</p>
 
-<div class="info">
+<p class="info">
     	
 estilos de decoración, tales como livings, espacios de lectura y relax, jardínes de invierno, galerías, oficinas, bares y restaurantes.
 Sabemos lo que cada uno necesita, por eso te ofrecemos atención personalizada.
+</p>
+    </div>
+
+</main>
+    
+
+    <section id="slideshow">
+        <div class="entire-content">
+            <div class="content-carrousel">
+                <figure class="shadow"><img src="imagenes/carrusell/carru.1.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.2.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.3.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.4.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.5.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.6.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.7.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.8.jpg"/></figure>
+                <figure class="shadow"><img src="imagenes/carrusell/carru.9.jpg"/></figure>
+    </div>
 </div>
-    </div>
-
-
-<div class="container">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="imagenes/carrusell/carru.1.jpg" alt="Doble Apoyabrazos" 
-            height="500px">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="imagenes/carrusell/carru.2.jpg" alt="Apoyabrazos simple"
-             height="500px">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="imagenes/carrusell/carru.3.jpg" alt="Clientes contentos" 
-            height="500px">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-    </div>
-
-    </main>
+</section>
 
    
 
-     
+
 
 
 <!-- LA IDEA ES PONER LOS LOGOS DE LAS REDES SOCIALES -->

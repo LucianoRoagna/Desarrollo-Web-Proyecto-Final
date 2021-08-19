@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="PILETA, REPOSERAS, DECORACION, MESAS, SILLAS ">
+    <meta name="description" content="Este es el sitio oficial de 'Reposeras Ivosol' donde podras ver y comprar nuestros productos, nuestra historia y nuestras redes ">
     <title>Ivosol Reposeras/Contacto</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="boostrap/bootstrap.min.css">
@@ -14,34 +17,36 @@
         <a href="index.html"><img src="http://www.reposerasivosol.com.ar/web/Logo-IVOSOLwhite.png" alt=""></a>
         
     
-        <div class="menu_bar">
-            <a href="#" class="bt-menu"><span class="icon-menu"></span>MENU</a>
-        </div>
+        
 
-        <nav class="menu">
     
-            <ul>
-                <li><a href="index.html">Nuestra Historia</a></li>
-                <li><a href="Productos.html">Productos</a>
-                    <li><a href="Tienda.html">Tienda  <span class="badge badge-info">20%OFF</span></a></li>
-                </li>
-                <li><a href="Contacto.html">Contacto</a></li>
-                <li><a href="tapizados.html">Tapizados</a></li>
-               
-                </li>
-            </ul>
     
-        </nav>
+    
 
-       
-    
-    </header>
+    <nav role="select">
+        <ul>
+            <li><a href="index.html">Historia</a></li>
+            <li><a href="Productos.html">Productos</a></li>
+            <li><a href="Tienda.html">Tienda</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="tapizados.html">Tapizados</a></li>
+        </ul>
+        
+        <select onchange="if (this.value) window.location.href = this.value;">
+            <option value="index.html">Historia</option>
+            <option value="Productos.html">Productos</option>
+            <option value="Tienda.html">Tienda</option>
+            <option value="Contacto.html">Contacto</option>
+            <option value="Tapizados.html">Tapizados</option>
+        </select>
+    </nav>
 
+</header>
 
     <!-- FORMULARIO -->
     <main >
 
-        <div class="containerForm">
+        <div class="container">
 <hr>
     <form action="" method="" enctype="text/plain">
 
